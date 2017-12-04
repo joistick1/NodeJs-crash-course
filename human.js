@@ -6,7 +6,6 @@ class Human {
 		this.emitter = emitter;
 		const that = this;
 		this.emitter.on("shoot", function (event) {
-			//console.log("subscribed on `shoot` event");
 			const message = event === true ? `Sorry, ${that.name} was killed` : `${that.name} is still alive`;
 			if(!event) {
 				console.log(message);

@@ -1,0 +1,33 @@
+{
+  "name": "event-emiter-2",
+  "version": "0.0.1",
+  "description": "Gun game",
+  "author": "Eugene",
+  "dependencies": {
+    "nopt": ">=1.0.8",
+    "bench": ">=0.3.2",
+    "nodelint": "0.5.2",
+    "underscore": ">=1.1.7",
+    "coffeekup": "0.3.0",
+    "ejs": "0.4.2",
+    "hamljs": "0.5.1",
+    "haml": "0.4.2",
+    "jade": "0.16.0",
+    "jqtpl": "1.0.6",
+    "mu2": "0.5.3",
+    "swig": "0.7.0",
+    "Templ8": "0.2.1",
+    "whiskers": "0.1.0"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

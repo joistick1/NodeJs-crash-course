@@ -6,7 +6,7 @@ class Human {
 		this.emitter = emitter;
 		const that = this;
 		this.emitter.on("shoot", function (event) {
-			const message = event === true ? `Sorry, ${that.name} was killed` : `${that.name} is still alive`;
+			const message = event === true ? `Sorry, ${that.name} was killed` : `${that.name} is still alive!`;
 			if(!event) {
 				console.log(message);
 				setTimeout(function () {
